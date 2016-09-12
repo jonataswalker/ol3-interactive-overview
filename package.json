@@ -1,0 +1,48 @@
+{
+  "name": "ol3-interactive-overview",
+  "version": "0.1.0",
+  "description": "Interactive Map Overview for OpenLayers 3",
+  "main": "build/ol3-interactive-overview.js",
+  "author": "Jonatas Walker",
+  "homepage": "https://github.com/jonataswalker/ol3-interactive-overview",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jonataswalker/ol3-interactive-overview.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jonataswalker/ol3-interactive-overview/issues"
+  },
+  "rollup": {
+    "entry": "src/js/base.js",
+    "dest": "build/ol3-interactive-overview-debug.js",
+    "moduleName": "InteractiveOverview"
+  },
+  "dependencies": {
+    "openlayers": "^3.18.2"
+  },
+  "devDependencies": {
+    "autoprefixer": "^6.4.1",
+    "clean-css": "^3.4.19",
+    "eslint": "^3.5.0",
+    "eslint-config-jwalker": "^1.9.0",
+    "node-sass": "^3.9.3",
+    "node-sass-json-importer": "^2.1.1",
+    "nodemon": "^1.10.2",
+    "parallelshell": "^2.0.0",
+    "postcss-cli": "^2.6.0",
+    "rollup": "^0.35.9",
+    "rollup-plugin-buble": "^0.13.0",
+    "rollup-plugin-json": "^2.0.2",
+    "uglify-js": "^2.7.3"
+  },
+  "eslintConfig": {
+    "extends": "jwalker",
+    "globals": {
+      "ol": true
+    },
+    "rules": {
+      "no-console": 0
+    }
+  }
+}

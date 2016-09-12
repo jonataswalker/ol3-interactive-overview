@@ -1,0 +1,12 @@
+{
+  "namespace": "ol-itv-overview",
+  "container": "-container",
+  "map": "-map",
+  "overlay": "-overlay",
+  "hidden": "-hidden",
+  "collapsed": "-collapsed",
+  "btn_absolute": "-transitionend",
+  "OL_control": "ol-control",
+  "OL_overlay": "ol-overlay-container",
+  "OL_unselectable": "ol-unselectable"
+}
